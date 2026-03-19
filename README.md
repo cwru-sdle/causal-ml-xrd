@@ -1,6 +1,6 @@
-# Trustworthy Machine Learning for X-ray Diffractometry: When Accurate Models Are Wrong
+# Trustworthy Machine Learning for X-ray Diffractometry: How Accurate Models May Silently Fail
 
-This repository contains the code accompanying the paper **"Trustworthy Machine Learning for X-ray Diffractometry: When Accurate Models Are Wrong"** by Redad Mehdi, Weiqi Yue, Ozan Dernek, Matthew A. Willard, Roger H. French, and Frank Ernst (Case Western Reserve University).
+This repository contains the code accompanying the paper **"Trustworthy Machine Learning for X-ray Diffractometry: How Accurate Models May Silently Fail"** by Redad Mehdi, Weiqi Yue, Ozan Dernek, Matthew A. Willard, Roger H. French, and Frank Ernst (Case Western Reserve University).
 
 The central finding of the paper is that general-purpose image recognition pre-training (ImageNet) and physics-driven synthetic pre-training can yield nearly identical accuracy on XRD phase fraction prediction, while differing fundamentally in *how* they arrive at those predictions. Robustness testing reveals that the ImageNet-initialized model exploits surface texture and background statistics rather than crystallographic features, whereas the synthetically pre-trained model correctly roots its predictions in Bragg peak evidence. This repository provides the tools to reproduce those results.
 
